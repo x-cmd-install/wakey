@@ -7,7 +7,7 @@ about:
   head: 52e0cba
   archived: false
   latestVersion: v1.2.0
-  collectedAt: 2026-09-04T19:56:29Z
+  collectedAt: 2026-09-04T20:46:00Z
 timeline:
   created: 2024-08-07
   lastCommit: 2026-03-31
@@ -81,5 +81,28 @@ total:
   openIssue: 1
   commit: 50
 ---
+path: /home/runner/.x-repo/github.com/jonathanruiz/wakey
+collectedAt: 2026-09-04T20:46:01Z
+loc:
+  Go:
+    code: 2585
+    comments: 325
+    blanks: 525
+    files: 27
+  Sh:
+    code: 13
+    comments: 6
+    blanks: 5
+    files: 1
+  Markdown:
+    code: 0
+    comments: 99
+    blanks: 72
+    files: 1
+total:
+  code: 2605
+  comments: 436
+  blanks: 606
+  files: 29
 ---
 
