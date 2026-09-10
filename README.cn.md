@@ -4,13 +4,23 @@
 
 A TUI built for managing and waking your devices using Wake-on-LAN.
 
-![wakey](https://repo.x-cmd.io/wakey.svg)
+![wakey](https://repo.x-cmd.io/wakey.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install wakey
 ```
+
+## 代码规模
+
+合计: **2,598** 行代码（覆盖前 5 种语言、共 **29** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 2,585 | 325 | 525 | 27 |
+| Sh | 13 | 6 | 5 | 1 |
+| Markdown | 0 | 99 | 72 | 1 |
 
 ## 源代码
 
@@ -22,7 +32,6 @@ x install wakey
 - **最新版本**: `v1.2.0` (2026-03-25)
 - **最近提交**: 2026-03-31
 - **Release 含资产**: 4 个
-- **发布时间**: 2026-03-25T03:41:05Z
 
 ## 流行度
 
@@ -37,18 +46,20 @@ x install wakey
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-03-14 | 1 | 8 | 0 | 5 | 1 | 9 |
 | 360d | 2025-09-15 | 1 | 8 | 0 | 5 | 1 | 9 |
+| last720d | 2024-09-20 | 1 | 9 | 0 | 5 | 1 | 9 |
 
-## 代码规模
+## Release 资产
 
-合计: **2,598** 行代码（覆盖前 5 种语言、共 **29** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 2,585 | 325 | 525 | 27 |
-| Sh | 13 | 6 | 5 | 1 |
-| Markdown | 0 | 99 | 72 | 1 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [sha256checksums.txt](https://github.com/jonathanruiz/wakey/releases/download/v1.2.0/sha256checksums.txt) | 259 B | `other` |
+| [wakey_darwin_amd64](https://github.com/jonathanruiz/wakey/releases/download/v1.2.0/wakey_darwin_amd64) | 13.0 MiB | `native/darwin/x64` |
+| [wakey_linux_amd64](https://github.com/jonathanruiz/wakey/releases/download/v1.2.0/wakey_linux_amd64) | 12.8 MiB | `native/linux/x64` |
+| [wakey_windows_amd64.exe](https://github.com/jonathanruiz/wakey/releases/download/v1.2.0/wakey_windows_amd64.exe) | 12.9 MiB | `native/win/x64` |
 
 ## 改进这些数据
 
@@ -59,4 +70,4 @@ wakey 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:43:49Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:35:08Z._
